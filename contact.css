@@ -1,0 +1,151 @@
+.hea{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  margin: 15px 20px 20px 45px;
+}
+
+.logo{
+  width: 30px;
+  margin-right:0px;
+}
+
+.left-sec{
+  margin-right: 5px;
+  margin-left: 20px; 
+  font-family: 'Montserrat', sans-serif;
+
+ }
+
+.tittle{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 700px;
+;
+}
+
+body{
+  background-color: rgb(223, 222, 222);
+}
+
+.right-sec{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+  color: rgb(88, 84, 84);
+  text-decoration: none;
+}
+
+.head-cnt{
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.abt-cnt{
+  font-family: 'Cagliostro', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 0.5em;
+  margin-left: 2.1em;
+}
+
+.ques{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  line-height: 0.5em;
+  margin-left: 5.3em;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.email-sec{
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 2em;
+  margin-left: 3.7em;
+  transition: 0.3s;
+  width: 150px;
+  align-items: center;
+ }
+
+ .email-sec:hover{
+  transition: 1;
+  border: 2px solid;
+  color: gray;
+  border-radius: 3px;
+  /* opacity: 0.6; */
+  
+ }
+
+.email-logo{
+  width: 38px;
+  height: 38px;
+  margin-left: 23px;
+} 
+
+.e-cls{
+  font-family: sans-serif;
+  margin-left: -2em;
+}
+
+.link-sec{
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: -0.1em;
+  margin-left: 3.7em;
+  transition: 0.3s;
+  width: 300px;
+  align-items: center;
+}
+
+.link-sec:hover{
+  transition: 1;
+  border: 2px solid;
+  color: gray;
+  border-radius: 3px;
+}
+
+.link-logo{
+  width: 38px;
+  height: 38px;
+  margin-left: 23px;
+}
+
+.l-cls{
+  font-family: sans-serif;
+  margin-left: -2em;
+}
+
+.insta-sec{
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: -0.1em;
+  margin-left: 3.7em;
+  transition: 0.3s;
+  width: 300px;
+  align-items: center;
+}
+
+.insta-sec:hover{
+  transition: 1;
+  border: 2px solid;
+  color: gray;
+  border-radius: 3px;
+}
+
+.insta-logo{
+  width: 68px;
+  height: 38px;
+  margin-left: 7px;
+}
+
+.i-cls{
+  font-family: sans-serif;
+  margin-left: -2.8em;
+}
