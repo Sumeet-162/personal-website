@@ -1,38 +1,64 @@
-.hea{
-  display: flex;
-  flex-direction: row;
-  height: 40px;
-  align-items: center;
-  margin: 15px 20px 20px 45px;
+body{
+  background-color: rgb(223, 222, 222);
+  margin: 0;
+  padding: 0;
 }
 
 .logo{
-  width: 30px;
-  margin-right:0px;
-}
-
-.left-sec{
-  margin-right: 5px;
-  margin-left: 20px; 
   font-family: 'Montserrat', sans-serif;
-
- }
-
-.tittle{
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  margin-right: 700px;
-;
 }
 
-body{
-  background-color: rgb(223, 222, 222);
+.container{
+  max-width: 1200ps;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.right-sec{
+.navbar{
+  padding: 20px 0;
+}
+
+.navbar .container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
   font-family: 'Roboto', sans-serif;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 844px) {
+  .navbar .container {
+      flex-direction: row;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      margin-top: 0px;
+  }
+
+  .nav-links li {
+      margin-right: 0.5em;
+      margin-bottom: 10px;
+  }
 }
 
 
