@@ -1,38 +1,64 @@
-.hea{
-  display: flex;
-  flex-direction: row;
-  height: 40px;
-  align-items: center;
-  margin: 15px 20px 20px 45px;
+body{
+  background-color: rgb(223, 222, 222);
+  margin: 0;
+  padding: 0;
 }
 
 .logo{
-  width: 30px;
-  margin-right:0px;
-}
-
-.left-sec{
-  margin-right: 5px;
-  margin-left: 20px; 
   font-family: 'Montserrat', sans-serif;
-
- }
-
-.tittle{
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  margin-right: 700px;
-;
 }
 
-body{
-  background-color: rgb(223, 222, 222);
+.container{
+  max-width: 1200ps;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.right-sec{
+.navbar{
+  padding: 20px 0;
+}
+
+.navbar .container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
   font-family: 'Roboto', sans-serif;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 844px) {
+  .navbar .container {
+      flex-direction: row;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      margin-top: 0px;
+  }
+
+  .nav-links li {
+      margin-right: 0.5em;
+      margin-bottom: 10px;
+  }
 }
 
 a{
@@ -41,30 +67,28 @@ a{
 }
 
 .para{
-  font-family: 'Cagliostro', sans-serif;
-  margin-left: 6.3em;
-  margin-top: 8em;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
 }
 
-.tittle-about{
-  font-size: 2.2em;
-  color: rgb(19, 18, 18);
+.title{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
 }
 
-.para-about{
-  font-size: 1.1em;
-  color: rgb(56, 54, 54);
-  display: flex;
+.content{
+  margin-left: 76px;
+  margin-top: 70px;
   flex-direction: row;
-  width:50em;
+
 }
 
-.img-para{
-  margin-left: 8em;
-  width: 350px;
-  margin-top: -1.5em;
+.img{
   border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
+  margin-top: 30px;
 }
 
 
